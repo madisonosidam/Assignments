@@ -1,0 +1,114 @@
+body {
+background-color:rgb(176,196,222);
+font-size:14pt:;
+font-family:arial, sans-serif;
+width:80%;
+margin-left:auto;
+margin-right:auto;
+}
+#main{
+background-color:lightcyan;
+padding:15px;
+height:900px
+}
+#container
+{
+    width:80%;
+    background-color:#0066ff;
+    height:800px;
+    margin-top:0; */
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px;
+}
+#header     {
+    text-align:center;
+    background-color:blue;
+    color:white;
+    padding-top:15px;
+    padding-bottom:15px;
+
+
+}
+#leftcol    {
+    width:40%;
+    float:left;
+    margin-left:10px;
+    text-align:justify;
+}
+  span          {
+             font-weight:bold;
+             color:green;
+             font-size:18pt;
+
+                      }
+ #rightcol
+         {
+           width:55%;
+           margin-left:20px;
+           float:left;
+           text-align:justify;
+         }
+a       {
+    text-decoration:none;
+}
+a:visited       {
+    color:black;
+}
+a:active    {
+    color:black;
+}
+ul a:hover     {
+    background-color:purple;
+    color:light cyan;
+    font-size:24pt;
+}
+
+ul
+{
+    list-style-type:none;
+    background-color:white;
+    overflow:hidden;
+    margin:0;
+    padding:0;;
+    text-align:center;
+    display:flex;
+
+}
+li
+{
+    display:inline;
+    float:left;\
+    text-align:center;
+}
+li a
+{
+   display: block;
+ text-align: center;
+  padding: 14px 16px;
+    color: black;
+  text-align: center;
+}
+li a:hover
+{
+    background-color: purple;
+    color:light cyan;
+   /* box-shadow: 8px -6px 11px 0 white;*/
+
+}
+figure
+{
+    text-align:center;
+    border-radius:15px;
+}
+
+figure:hover
+{
+    transition-duration: 2s
+    align;
+    transform: scale(1.05);
+    border-radius: 15px;
+  box-shadow: 0 2px 9px rgba(255, 245, 245, 1);
+  overflow: hidden;
+  text-align: center
+}
